@@ -1,0 +1,45 @@
+<DOCTYPE html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Form2.css" />
+        <title>
+            FORM
+        </title>
+    </head>
+
+    <body>
+
+        <div class="box-form">
+            <h1>
+                Formulir Pendaftaran
+            </h1>
+            <hr>
+            <br>
+            <form action="submitform.php" method="GET">
+                Nama Lengkap :<br>
+                <input type="text" name="Nama" required /> <br><br>
+                Tempat Lahir :<br>
+                <input type="text" name="tempat lahir" required /> <br><br>
+                Tanggal Lahir :<br>
+                <input type="date" name="tanggal Lahir" required /> <br><br>
+                Jenis Kelamin :<br>
+                <select name="Jenis Kelamin" required />
+                <option value="Laki-Laki">Laki-Laki</option>
+                <option value="Perempuan">Perempuan</option>
+                </select><br><br>
+                No. Telepon :<br>
+                <input type="text" name="notelp" required /> <br><br>
+                Email :<br>
+                <input type="email" name="Email" required /> <br><br>
+                Password :<br>
+                <input type="password" name="password" required> <br><br>
+                Alamat Lengkap : <br>
+                <textarea name="Alamat" rows="5" cols="50"></textarea> <br><br>
+                <input type="submit" name="Daftar" value="Daftar">
+                <input type="reset" name="Reset" value="Reset"><br><br>
+            </form>
+        </div>
+    </body>
+
+    </html>
